@@ -1,6 +1,6 @@
 # Scripts
 
-Keep reusable analysis, data-processing, and figure-generation code here. Give files descriptive names and include a short usage note at the top of each script or in a nearby README.
+Keep reusable analysis, data-processing, and figure-generation code here. These can for example be Python .py scripts, bash .sh scripts, Jupyter notebooks etc. Give files descriptive names and include a short usage note at the top of each script or in a nearby README.
 
 For each important script, document:
 
