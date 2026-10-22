@@ -1,0 +1,40 @@
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Python and notebook caches / virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data payloads are stored outside Git unless reviewed and explicitly approved.
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/README.md
+
+# Large model weights and per-run output are not source files.
+/models/checkpoints/*
+!/models/checkpoints/README.md
+/results/runs/*
+!/results/runs/README.md
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc

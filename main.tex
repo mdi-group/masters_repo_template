@@ -1,0 +1,33 @@
+\documentclass[12pt]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+\title{Working project title}
+\author{Student name}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Replace this paragraph with a concise summary of the question, approach, main result, and conclusion. Write this near the end of the project.
+\end{abstract}
+
+\tableofcontents
+
+\input{writing/sections/introduction}
+\input{writing/sections/literature_review}
+\input{writing/sections/methods}
+\input{writing/sections/results}
+\input{writing/sections/discussion}
+\input{writing/sections/conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{writing/references}
+
+\end{document}
