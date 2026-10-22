@@ -1,5 +1,3 @@
 # Models
 
-Keep model descriptions and a register of model artifacts here. Use [`../templates/model_card.md`](../templates/model_card.md) for each model that contributes to a reported result.
-
-Large checkpoints are ignored by Git in `models/checkpoints/`. Store them in approved project storage and record a stable URI, access instructions, file size, and SHA-256 checksum in the model card and [`model_register.csv`](model_register.csv). Do not assume that a checkpoint can be reconstructed from its filename alone.
+Keep brief descriptions of models used in the project here. For each important model, note its purpose, training data, code version, settings, evaluation, and known limitations. Large checkpoints in `checkpoints/` are ignored by Git; store them in approved storage or as versioned GitHub Release assets and give the download instructions here. Do not rely on a filename alone to identify a model.

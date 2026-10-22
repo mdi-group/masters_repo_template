@@ -1,3 +1,3 @@
 # Run outputs
 
-This folder is ignored by Git by default. Store bulky or transient run outputs here only if local storage is appropriate. Keep a tracked experiment record that identifies the input data, code commit, settings, environment, outcome, and approved long-term output location.
+This folder is ignored by Git by default. Use it for local or bulky run outputs. Keep any run notes needed to interpret results in a tracked file in the parent `results/` folder.

@@ -1,5 +1,3 @@
 # Figures
 
-Keep selected figures used in reports here. For each important figure, add a row to [`figure_register.csv`](figure_register.csv) with its generating script, input dataset/version, settings, output filename, and code commit.
-
-Prefer vector formats (PDF/SVG) for plots when practical. Keep the plotting code and inputs needed to regenerate a figure; a figure image by itself is not a reproducible result. Check figure file size and sharing permissions before committing it.
+Keep selected figures used in reports here. Use descriptive filenames and keep the plotting script and inputs needed to regenerate each important figure. Note the script, data, and key settings in the script or a short caption file. Prefer vector formats (PDF/SVG) for plots when practical, and check file size and sharing permissions before committing a figure.

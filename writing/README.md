@@ -1,24 +1,13 @@
-# Literature review and report
+# Overleaf and references
 
-The report starts at [`../main.tex`](../main.tex). It imports the chapter files in `sections/`; begin with the literature review, then update the methods and results as the project develops. Use your department's required structure and formatting when it is available.
+The group’s report template can be added to this folder when it is available. For now, use this note to connect the project repository, Overleaf, and Zotero.
 
-## Overleaf and GitHub
+## Connect Overleaf to GitHub
 
-The simplest linked workflow is to push this repository to GitHub, then create a **new Overleaf project from that GitHub repository**. Overleaf GitHub sync is manual and requires a premium feature; the linked project is synchronized from its menu. It imports the whole repository, so keep data and model payloads out of Git, avoid Git LFS and submodules, and keep the repository small. Overleaf recommends less than 100 MB for a GitHub-synced project.
+Push the project repository to GitHub, then create a **new Overleaf project from GitHub**. GitHub synchronization is manual and requires an Overleaf premium feature. Use the GitHub option in the Overleaf project menu to pull or push; sync before switching editors and avoid editing the same file in both places before syncing. Overleaf cannot use GitHub sync to connect an existing Overleaf project to an existing GitHub repository. See the [GitHub synchronization guide](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) for setup and current limitations.
 
-Overleaf cannot connect an existing Overleaf project to an existing GitHub repository through GitHub sync. For an existing Overleaf project, consult Overleaf's [Git integration guide](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/git-integration) for the separate Git-remote workflow. The [GitHub synchronization guide](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) describes setup, manual sync, authorship, size limits, and other current limitations.
+## Connect Zotero
 
-Save the Overleaf project URL in the project details at the top of the root README. Sync before changing editors, and review changes on GitHub. Overleaf pushes are attributed to the connected GitHub account owner, so keep [AUTHORS.md](../AUTHORS.md) and [the project log](../docs/PROJECT_LOG.md) up to date.
+Zotero integration is also an Overleaf premium feature. In Overleaf account settings, link your Zotero account under **Reference Managers**. In the Overleaf project, import your Zotero library or a Group Library as a `.bib` file, then refresh that file in Overleaf after changing references in Zotero. A project-specific Zotero Group Library helps keep the imported references focused. Alternatively, use Overleaf's advanced reference search to add individual references to the project's editable bibliography.
 
-## Literature review practice
-
-- Record the search date, search terms, inclusion/exclusion reason, and citation details in [`reading_log.csv`](reading_log.csv).
-- Add complete citation metadata to [`references.bib`](references.bib) and cite claims close to where they appear.
-- Compare and synthesize sources by question, method, evidence, and limitations; avoid writing one isolated summary paragraph per paper.
-- Make clear which statements are established findings, disagreements in the literature, or your interpretation.
-
-## Figures and references
-
-The report can include a tracked figure using `\includegraphics{figures/<filename>}`. Record the figure's inputs and generating script in [`../figures/figure_register.csv`](../figures/figure_register.csv). Keep figure files small enough for the chosen GitHub/Overleaf workflow.
-
-Add references in BibTeX format to `references.bib`. Cite with `\citep{key}` for parenthetical citations or `\citet{key}` for author-in-text citations. Replace the example chapter prompts with the required thesis format before final submission.
+If Zotero integration is unavailable, export the relevant collection from Zotero as a BibTeX `.bib` file and add it to the Overleaf project and GitHub repository. Keep Zotero as the library of record and refresh the exported file when citations change. See Overleaf's [Zotero guide](https://docs.overleaf.com/integrations-and-add-ons/reference-manager-integrations/zotero) for the current steps and options.
