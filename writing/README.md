@@ -1,10 +1,17 @@
-# Overleaf and references
+# Overleaf, thesis template, and references
 
-The group’s report template can be added to this folder when it is available. For now, use this note to connect the project repository, Overleaf, and Zotero.
+Use the [UCL PhD thesis LaTeX template](https://github.com/YuxuanTang2002/ucl-phd-thesis-template) for the literature review and final report source. It provides `main.tex`, chapter files, and a bibliography starter. Add or rename chapters to match your supervisor-approved report outline. The template describes itself as an unofficial UCL PhD thesis format created by a Chemistry PhD student; check that it suits your Master’s report requirements before using it.
 
-## Connect Overleaf to GitHub
+## Add the template and connect Overleaf
 
-Push the project repository to GitHub, then create a **new Overleaf project from GitHub**. GitHub synchronization is manual and requires an Overleaf premium feature. Use the GitHub option in the Overleaf project menu to pull or push; sync before switching editors and avoid editing the same file in both places before syncing. Overleaf cannot use GitHub sync to connect an existing Overleaf project to an existing GitHub repository. See the [GitHub synchronization guide](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) for setup and current limitations.
+1. Create your project repository from `masters_repo_template` and push it to GitHub.
+2. Download the UCL template as a ZIP. Copy its `main.tex`, `bibliography.bib`, and the `appendices/`, `conclusions/`, `front/`, `introduction/`, `methodology/`, and `research/` folders into the root of your project repository. Keep this repository's README and project folders. Copy the UCL template's MIT licence to `writing/UCL_TEMPLATE_LICENSE` so the project's root `LICENSE` remains in place.
+3. Commit and push the template files to your project repository.
+4. In Overleaf, choose **New Project → Import from GitHub** and select your project repository. This imports the UCL template files and links Overleaf sync to your project repository. Set the compiler to **LuaLaTeX**.
+
+Importing the UCL template repository itself creates an Overleaf project connected to that template repository. Import your combined project repository to keep the thesis source and research project together. GitHub synchronization is manual and requires an Overleaf premium feature; sign up with your UCL account for the group’s access. Sync from the Overleaf project menu, and sync before switching editors or editing the same file in both places. See Overleaf’s [GitHub synchronization guide](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) for current setup and limitations.
+
+The template includes a UCL logo. Its README notes that use of the logo is subject to UCL branding guidance; check permission or remove the logo if needed.
 
 ## Connect Zotero
 

@@ -48,8 +48,9 @@ See GitHub’s [release documentation](https://docs.github.com/en/repositories/r
 ## Write in Overleaf
 
 - [ ] Push the initial project repository to GitHub.
-- [ ] In Overleaf, create a **new project from GitHub** and select this project repository. The group report template is available in this repo.
-- [ ] GitHub synchronization is manual and requires an Overleaf premium feature with is provided if you sign up with your UCL account. Sync from the Overleaf project menu; sync before switching between editing in Overleaf and GitHub.
+- [ ] Follow [`writing/README.md`](writing/README.md) to add the [UCL thesis template](https://github.com/YuxuanTang2002/ucl-phd-thesis-template) to this project repository, then push it to GitHub.
+- [ ] In Overleaf, create a **new project from GitHub** and select this project repository. Set the compiler to LuaLaTeX.
+- [ ] GitHub synchronization is manual and requires an Overleaf premium feature; sign up with your UCL account for the group’s access. Sync from the Overleaf project menu and sync before switching between Overleaf and GitHub.
 - [ ] Save the Overleaf project URL above. See [`writing/README.md`](writing/README.md) for the Zotero connection and reference-sync steps.
 
 Overleaf GitHub sync attributes pushes to the connected GitHub account owner, and can bundle several edits into a single commit. Record contributions and important project decisions in the repository README or a brief project note. See Overleaf’s [GitHub synchronization guide](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization) for current setup and limitations.
